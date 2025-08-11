@@ -1,0 +1,20 @@
+Day 2: Basic Navigation in the Linux Terminal: pwd, ls, and cd.
+
+1. pwd - Print Working Directory
+   Definition: The pwd command stands for "print working directory". It shows you the full path of your current directory.
+Example: /home/aishu/Downloads
+
+2. ls - List Directory Contents
+   Definition: The ls command lists the files and directories in your current directory. 
+Example: ls, ls -a(for hidden files), ls -lh(for information in human readable format), ls -l (to provide information in a more detailed way)
+
+3. cd - Change Directory
+   Definition: The cd command allows you to change the current directory you're working in.
+Example:cd Desktop, cd Downloads.
+*Move back to the previous directory:
+$ cd ..
+*Go directly to your home directory:
+$ cd or cd ~
+Both will take you to the home directory, regardless of where you are.
+*Go to an absolute path:
+$ cd /home/user/Downloads
