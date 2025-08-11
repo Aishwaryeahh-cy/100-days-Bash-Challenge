@@ -1,0 +1,11 @@
+1. The Linux Terminal:
+  Definition: The terminal is a program that takes input from the user in the form of text commands and sends it to the operating system to execute.
+  Example: ls,cd.
+
+2. The Shell:
+  Definition: The shell is a program that interprets and executes the commands entered by the user. 
+  Example: echo "Hello! It's my first day"
+
+2. Man Pages (Manual Pages):
+  Definition: Man pages are the built-in documentation in Linux that provide detailed information about commands, system calls, library functions, and configuration files. 
+  Example: man ls, man cpu etc.(q letter is used to quit automatically).
