@@ -1,0 +1,14 @@
+#cp – Copy Files or Directories
+Definition: cp stands for "copy". It makes a copy of a file or folder.
+Example: cp original.txt copy.txt
+         cp oldfile.txt newfile.txt
+Defined example:touch original.txt
+                cp original.txt duplicate.txt
+                ls(To check the contents)
+
+#mv – Move or Rename Files or Directories
+Definition: mv stands for "move". It moves a file/folder to a different location, or renames it.
+Example: mv oldname.txt newname.txt
+Defined Example: mkdir Myfolder
+                 touch Newfile.txt
+                 mv Newfile.txt Advance.txt
