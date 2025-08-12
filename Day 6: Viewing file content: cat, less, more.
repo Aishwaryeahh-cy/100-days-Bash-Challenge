@@ -1,0 +1,9 @@
+# cat – View Entire File at Once
+Definition: cat stands for "concatenate", but it's often used to quickly show the full content of a file.
+Example: cat file.txt
+
+# less – Scroll Through File (Better for Long Files)
+Definition: less lets you view large files one screen at a time, with the ability to scroll up/down.
+Example: less bigfile.txt
+
+  
