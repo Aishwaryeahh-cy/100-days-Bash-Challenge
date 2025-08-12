@@ -1,0 +1,12 @@
+#Directory creation
+A directory is just a folder. It helps organize files. 
+Example: "Downloads" or "Documents" are directories.
+
+#Mkdir – Make Directory
+Definition:mkdir stands for "make directory". It creates a new folder (directory).
+Example: mkdir MyFolder,mkdir Aish
+This creates a folder called MyFolder in your current location.
+
+#touch – Make File
+Definition:touch is used to create a new empty file. It’s often used to make text or code files.
+Example: touch myfile.txt,touch Aish.txt (type ls to see the file).
