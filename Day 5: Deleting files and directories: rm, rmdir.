@@ -1,0 +1,17 @@
+# rm – Remove Files or Directories
+Definition: rm stands for "remove". It's used to delete files and (with a special option) directories.
+Example: mkdir NewOne
+         touch Newfilehere.txt
+         rm Newfilehere.txt(Remove Files or Directories)
+
+#Delete a Folder and Its Contents:
+rm -r foldername
+The -r means recursive, which allows it to delete the folder and everything inside it.
+Example: mkdir Newish
+        touch heythere.txt
+        rm -r Newish
+
+# rmdir – Remove Empty Directory
+Definition: rmdir means "remove directory". It only works if the folder is empty.
+Example: mkdir Empty folder
+         rmdir Empty folder (deletes the folder only if it has nothing inside).
