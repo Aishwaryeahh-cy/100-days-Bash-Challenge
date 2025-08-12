@@ -6,4 +6,8 @@ Example: cat file.txt
 Definition: less lets you view large files one screen at a time, with the ability to scroll up/down.
 Example: less bigfile.txt
 
+# more-(Scroll Through the File)(Just one direction)
+Definition: more allows you to view a file one page at a time, which is helpful for larger files. It only lets you scroll forward.
+Example: more myfile.txt
+
   
