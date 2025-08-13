@@ -1,0 +1,15 @@
+I/O Redirection means sending the output or error of a command to a file instead of the screen.
+
+# > (Redirect output and overwrite)
+    Meaning: Send the output to a file (if the file exists, it will be erased).
+    Example: echo "Hello" > file.txt
+
+# >> (Redirect output and append)
+    Meaning: Add the output to the end of the file (don't erase existing content).
+    Example: echo "Another line" >> file.txt
+
+# 2> (Redirect error output)
+    Meaning: Send error messages to a file.
+    Example: ls not_a_file 2> error.txt
+
+    
