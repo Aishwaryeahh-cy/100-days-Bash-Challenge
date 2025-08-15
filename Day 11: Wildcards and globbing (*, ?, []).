@@ -1,0 +1,6 @@
+# Globbing and Wildcards
+It means using wildcard characters to match file names or paths in the shell (*,?,[]).
+ Examples: ls *.txt
+           ls file?.txt
+           ls file[123].txt
+           ls file[a-c].txt
