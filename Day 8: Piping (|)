@@ -1,0 +1,5 @@
+# Piping (|)?
+In Linux, pipes are used to connect two or more commands so that: The output of one command becomes the input of the next.
+Example: ls | grep txt
+         echo "It's me Aishwarya.v, | newfile.txt
+         ps aux | grep firefox
