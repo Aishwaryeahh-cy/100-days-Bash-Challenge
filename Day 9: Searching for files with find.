@@ -1,0 +1,7 @@
+# find (SUsed for searching files.
+The find command is used in Linux/Unix to search for files and directories in a directory hierarchy based on conditions like name, size, type, time, etc.
+Example; find . -name "file.txt"
+         find . -name "*.txt"
+         find . -type d
+         find . -type f
+         find . -size +1M
