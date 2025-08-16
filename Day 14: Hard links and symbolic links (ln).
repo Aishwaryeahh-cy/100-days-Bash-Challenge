@@ -1,0 +1,9 @@
+# Hard Links and Symbolic Links (ln)
+1. Hard Links
+If the original file is deleted, the data is still accessible via the hard link.
+Example : ln existing_file hard_link_name
+          ln notes.txt backup_notes.txt
+
+2. Symbolic Links 
+If the original is deleted, the symlink becomes broken.
+Example: ln -s existing_file symlink_name
