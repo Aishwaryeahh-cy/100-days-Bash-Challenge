@@ -1,0 +1,7 @@
+# File Permissions (chmod) in Linux
+chmod stands for "change mode".
+It is used to change the permissions of a file or directory.
+Example: chmod u+x file.txt   
+         chmod g-w file.txt   
+         chmod o=r file.txt   
+         chmod 755 file.sh
