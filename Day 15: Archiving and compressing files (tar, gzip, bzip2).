@@ -1,0 +1,18 @@
+# Archiving and Compressing Files (tar, gzip, bzip2)
+
+tar – Archive Tool
+tar is used to group multiple files into a single archive (usually with .tar extension).
+Example: tar -cvf mybackup.tar Documents/
+         tar -xvf archive_name.tar(extract)
+         tar -tvf archive_name.tar(to list the files)
+
+gzip – Compress a file
+Compresses a file and adds .gz extension.
+Example: gzip notes.txt  → becomes notes.txt.gz
+         gunzip notes.txt.gz ( to decompress)
+
+bzip2 – Better compression than gzip
+Example: bzip2 report.log → becomes report.log.bz2
+         bunzip2 report.log.bz2 (Decompress)
+
+
