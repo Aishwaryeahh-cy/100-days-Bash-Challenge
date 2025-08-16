@@ -1,0 +1,11 @@
+ Managing processes (ps, top, kill).
+# ps – Show running processes
+ Example: ps aux
+          ps aux | grep firefox
+
+# top – Live system monitor
+ Example: top.
+
+# kill – Terminate processes
+ Example : kill PID.
+           kill -9 PID (Immediate action ,force kill)
