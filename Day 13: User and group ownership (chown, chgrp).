@@ -1,0 +1,11 @@
+# User and Group Ownership (chown, chgrp)
+In Linux, ownership is an important part of file permissions and security. Each file and directory is owned by:
+A user (owner)
+A group
+CHOWN (USER ND SOMETIMES GROUP)
+CHGRP (ONLY FILE)
+Example for chown: sudo chown bob report.txt (nly user)
+                   sudo chown bob:admins report.txt (both user and group) 
+
+Example for chgrp: sudo chgrp testers report.txt
+
