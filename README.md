@@ -7,7 +7,7 @@ This repository contains daily practice content, commands, and notes as I explor
 
 ## 📅 Completed Days (Sorted)
 
-- [Day 1: Introduction](Day\ 1/README.md)
+- [Day 1: Introduction](Day%201/README.md)
 - [Day 2: I/O Redirection](Day\ 2/README.md)
 - [Day 3: File and directory creation (mkdir, touch)](Day\ 3/README.md)
 - [Day 4: Copying and moving files (cp, mv)](Day\ 4/README.md)
