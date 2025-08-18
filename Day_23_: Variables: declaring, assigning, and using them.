@@ -1,0 +1,16 @@
+#!/bin/bash
+name="YourName"
+age=25
+city="Mumbai"
+
+echo "Name: $name"
+echo "Age: $age"
+echo "City: $city"
+
+#!/bin/bash
+echo "Enter your name:"
+read username
+echo "Enter your favorite color:"
+read color
+
+echo "Hello $username, your favorite color is $color!"
