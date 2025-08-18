@@ -1,47 +1,31 @@
----
+<h1 align="center"> 🐚 100 Days of Bash 🚀 </h1>
 
-## 📅 Progress Tracker  
-
-✅ = Completed  
-🕒 = In progress  
-
-| Day | Topic | Status |
-|-----|--------|---------|
-| 01  | Hello World 🌍 | ✅ |
-| 02  | Variables 🧩 | ✅ |
-| 03  | Loops 🔁 | ✅ |
-| 04  | Conditions ⚖️ | 🕒 |
-| ... | ... | 🕒 |
-| 100 | Final Project 🎉 | 🕒 |
+<p align="center">
+  <img src="https://media.giphy.com/media/kaBuQ7GyVnmQzYrJpV/giphy.gif" width="200" alt="bash gif" />
+</p>
 
 ---
 
-## 🛠️ Tools & Tech  
-- 🐧 **Linux**  
-- 🐚 **Bash**  
-- ⚡ Shell utilities (`grep`, `awk`, `sed`, `curl`, etc.)  
+## ⚡ Progress  
+✅ Day 1: Hello World 🌍  
+✅ Day 2: Variables 🧩  
+✅ Day 3: Loops 🔁  
+⚡ Day 4+: On the way...  
 
 ---
 
-## 🎯 Goals  
-- ✅ Build confidence in **Bash scripting**  
-- ✅ Automate boring tasks 🖥️  
-- ✅ Strengthen Linux skills 💪  
-- ✅ Share scripts that others can use 🚀  
-
----
-
-## 🤝 Contributing  
-Found improvements or new ideas?  
-Feel free to **open a pull request** or suggest in **Issues**!  
-
----
-
-## 📜 License  
-📝 MIT License — Free to use, share, and modify.  
+## 🛠️ Tech Stack  
+🐧 Linux • 🐚 Bash • ⚡ Shell Utilities  
 
 ---
 
 <p align="center">
-  💡 <i>"A little Bash every day keeps the confusion away!"</i> 🐚
+  <img src="https://img.shields.io/badge/100--Days-Bash-green?style=for-the-badge&logo=gnu-bash" />
+  <img src="https://img.shields.io/badge/Made%20With-Linux-blue?style=for-the-badge&logo=linux" />
+</p>
+
+---
+
+<p align="center">
+  💡 <i>"Automate. Learn. Repeat."</i>
 </p>
