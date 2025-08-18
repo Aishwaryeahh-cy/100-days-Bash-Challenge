@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Good morning, $USER!"
+echo "The time is: $(date +%H:%M)"
+chmod +x goodmorning.sh
+./goodmorning.sh(TO RUN)
