@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Enter your mark (0-100):"
+read mark
+if [ $mark -ge 90 ]; then
+    echo "Grade A"
+elif [ $mark -ge 75 ]; then
+    echo "Grade B"
+elif [ $mark -ge 50 ]; then
+    echo "Grade C"
+else
+    echo "Fail"
+fi
