@@ -1,0 +1,10 @@
+#echo "What is your name?"
+read name
+echo "Hello, $name!"
+
+#echo "Enter your first and last name:"
+read first last
+echo "Welcome, $first $last!"
+
+#read -p "Enter your favorite food: " food
+echo "Yum! You like $food."
