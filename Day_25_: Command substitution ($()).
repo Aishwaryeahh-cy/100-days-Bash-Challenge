@@ -1,0 +1,7 @@
+#today=$(date)
+echo "Today is: $today"
+
+#echo "The current working directory is: $(pwd)"
+
+#sum=$((5+3))
+echo "The sum is: $sum"
