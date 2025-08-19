@@ -1,0 +1,23 @@
+These are used inside [ ] or [[ ]] to test string conditions.
+Operator	Meaning
+-z	      True if the string is empty
+-n	      True if the string is not empty
+==	      True if strings are equal
+!=	      True if strings are not equal
+
+#1st example
+#str=""
+if [[ -z "$str" ]]; then
+  echo "String is empty"
+else
+  echo "String is not empty"
+fi
+
+
+#2nd example
+#read -p "Enter username: " username
+if [[ -z "$username" ]]; then
+  echo "Username cannot be empty"
+else
+  echo "Welcome, $username!"
+fi
