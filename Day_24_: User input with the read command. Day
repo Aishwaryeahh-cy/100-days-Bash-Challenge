@@ -1,0 +1,12 @@
+#echo "Enter your first and last name:"
+read first last
+echo "Welcome, $first $last!"
+
+#read -p "Enter your favorite food: " food
+echo "Yum! You like $food."
+(-p prompt inline used instead of echo)
+
+#read -sp "Enter your password: " pass
+echo
+echo "Password received."
+(-s secret input , doesn't display)
