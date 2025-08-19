@@ -1,0 +1,24 @@
+Operator	Meaning
+-e	      File exists
+-f	      File exists and is a regular file
+-d	      File exists and is a directory
+-s	      File exists and is not empty (size > 0)
+
+# Check if a file exists
+if [ -e "notes.txt" ]; then
+  echo "notes.txt exists"
+else
+  echo "File not found"
+fi
+
+# Check if it's a directory
+if [ -d "myfolder" ]; then
+  echo "It's a directory"
+fi
+
+# Check if file is not empty
+if [ -s "log.txt" ]; then
+  echo "File is not empty"
+else
+  echo "File is empty or doesn't exist"
+fi
