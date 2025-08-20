@@ -1,0 +1,5 @@
+for file in /path/to/directory/*
+do
+    echo "Processing file: $file"
+    # You can add commands to process the file here
+done
