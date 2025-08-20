@@ -1,0 +1,9 @@
+while true
+do
+    read -p "Enter something (type 'stop' to exit): " input
+    if [ "$input" = "stop" ]; then
+        echo "Stopping loop."
+        break
+    fi
+    echo "You entered: $input"
+done
