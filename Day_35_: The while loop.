@@ -7,3 +7,10 @@ do
     fi
     echo "You entered: $input"
 done
+
+##!/bin/bash
+while true
+do
+    echo "Press Ctrl+C to stop this loop."
+    sleep 2
+done
