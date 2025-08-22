@@ -14,3 +14,11 @@ do
     echo "Press Ctrl+C to stop this loop."
     sleep 2
 done
+
+#answer=""
+while [ "$answer" != "yes" ]
+do
+  read -p "Do you like Bash? (type yes to stop): " answer
+done
+
+echo "Yay! You like Bash 🎉"
