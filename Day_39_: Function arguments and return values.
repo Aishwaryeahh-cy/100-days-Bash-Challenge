@@ -1,0 +1,17 @@
+Arguments are values you pass to a function.
+
+Return values are what you get back from a function after it runs.
+
+# is_even() {
+  if (( $1 % 2 == 0 )); then
+    return 0  # success (even)
+  else
+    return 1  # failure (odd)
+  fi
+}
+is_even 4
+if [ $? -eq 0 ]; then
+  echo "Even"
+else
+  echo "Odd"
+fi
