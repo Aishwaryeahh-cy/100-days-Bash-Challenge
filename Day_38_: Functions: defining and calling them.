@@ -1,0 +1,9 @@
+# A function is a way to group commands together under a name.
+You can call that name anywhere in your script to reuse the commands inside.
+
+# add_numbers() {
+  result=$(( $1 + $2 ))
+  echo $result
+}
+sum=$(add_numbers 4 5)
+echo "The sum is: $sum"
