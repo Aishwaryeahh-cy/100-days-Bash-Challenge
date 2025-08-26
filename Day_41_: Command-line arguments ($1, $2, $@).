@@ -1,0 +1,9 @@
+When you run a Bash script, you can pass arguments to it. Inside the script:
+$1 is the first argument
+$2 is the second argument
+$@ means all the arguments (as a list)
+
+##!/bin/bash
+echo "Hello, $1!"
+echo "You are learning $2."
+echo "All arguments: $@"
