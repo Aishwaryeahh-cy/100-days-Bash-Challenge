@@ -1,0 +1,14 @@
+# ls somefile.txt
+echo "Exit status: $?"
+
+# echo "This script's PID is $$"
+
+# echo "You passed $# arguments."
+
+#!/bin/bash
+if [ $# -lt 2 ]; then
+    echo "You need to provide at least 2 arguments."
+    exit 1
+fi
+echo "You entered $# arguments: $@"
+
