@@ -1,9 +1,12 @@
 # ls somefile.txt
 echo "Exit status: $?"
 
+
 # echo "This script's PID is $$"
 
+
 # echo "You passed $# arguments."
+
 
 #!/bin/bash
 if [ $# -lt 2 ]; then
@@ -12,3 +15,4 @@ if [ $# -lt 2 ]; then
 fi
 echo "You entered $# arguments: $@"
 
+------------
