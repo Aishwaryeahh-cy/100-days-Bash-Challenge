@@ -1,0 +1,14 @@
+# Indexed
+fruits=("apple" "banana" "cherry")
+echo "${fruits[0]}" 
+echo "${fruits[1]}"  
+
+# Associative
+declare -A capital
+capital["France"]="Paris"
+capital["Germany"]="Berlin"
+capital["Japan"]="Tokyo"
+for country in "${!capital[@]}"; do
+  echo "$country: ${capital[$country]}"
+done
+
