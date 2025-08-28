@@ -1,0 +1,14 @@
+#Indexed
+names=("Alice" "Bob" "Charlie")
+for name in "${names[@]}"; do
+  echo "Hello, $name"
+done
+
+# Associative
+declare -A languages
+languages[Python]="Guido"
+languages[Ruby]="Matz"
+languages[Java]="Gosling"
+for lang in "${!languages[@]}"; do
+  echo "$lang was created by ${languages[$lang]}"
+done
