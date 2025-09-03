@@ -1,0 +1,11 @@
+grep uses Basic Regular Expressions (BRE). For full regex power, use:
+grep -E for Extended Regex
+grep -P for Perl-compatible Regex (only in some systems)
+grep -i for case-insensitive
+grep -v to invert match
+
+
+grep -E "[0-9]{3}-[0-9]{3}-[0-9]{4}" file.txt
+grep -E "[a-zA-Z0-9._]+@[a-zA-Z]+\.[a-z]{2,4}" file.txt
+grep -i "linux" file.txt
+grep -v "error" logs.txt
