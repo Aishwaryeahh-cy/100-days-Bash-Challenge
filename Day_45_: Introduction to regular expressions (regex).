@@ -1,0 +1,9 @@
+Regular Expressions (Regex) are patterns used to match and manipulate text.
+They are used in many tools like grep, sed, awk, perl, python, etc.
+
+1) Match a phone number
+echo "9056763487" grep -E '^[0-9]{3}-[0-9]{3}-[0-9]{4}$'
+
+2) Match a date like 2025-09-03
+cho "2025-09-03" | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' 
+          
