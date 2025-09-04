@@ -1,0 +1,8 @@
+# Replace all 'apple' with 'APPLE'
+sed 's/apple/APPLE/g' fruits.txt
+
+# Replace 2nd 'a' in each line with 'A'
+sed 's/a/A/2' fruits.txt
+
+# Replace 'mango' with 'fruit' ignoring case
+sed 's/mango/fruit/Ig' fruits.txt
