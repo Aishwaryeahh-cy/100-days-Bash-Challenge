@@ -1,0 +1,11 @@
+# Replace first 'a' with 'A' in each line
+sed 's/a/A/' fruits.txt
+
+# Replace ALL 'a' with 'A'
+sed 's/a/A/g' fruits.txt
+
+# Delete lines containing 'banana'
+sed '/banana/d' fruits.txt
+
+# Print only lines with 'mango'
+sed -n '/mango/p' fruits.txt
