@@ -1,0 +1,11 @@
+# Print the first column (names)
+awk '{print $1}' students.txt
+
+# Print the second column (marks)
+awk '{print $2}' students.txt
+
+# Print names with marks above 80
+awk '$2 > 80 {print $1, $2}' students.txt
+
+# Calculate average marks
+awk '{sum += $2} END {print "Average:", sum/NR}' students.txt
