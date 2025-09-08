@@ -1,0 +1,10 @@
+Cron is used to run tasks automatically at scheduled times.
+
+Example 1:
+#!/bin/bash
+#A simple script for testing Git
+echo "Hello Miss Aishwarya ✨"
+echo "Today is: $(date)"
+
+Example 2: Run a script every day at 7 AM
+0 7 * * * /home/aishu/scripts/backup.sh
