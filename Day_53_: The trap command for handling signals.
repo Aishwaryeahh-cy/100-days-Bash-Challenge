@@ -1,0 +1,15 @@
+trap lets you catch signals (like Ctrl+C) and take action instead of stopping.
+
+#!/bin/bash
+# Trap Ctrl+C (SIGINT) and ignore it
+trap '' SIGINT
+
+echo "This script ignores Ctrl+C but will stop with Ctrl+Z"
+echo "Try pressing Ctrl+C or Ctrl+Z"
+count=1
+
+while true; do
+  echo "Running... $count"
+  count=$((count + 1))
+  sleep 2
+done
