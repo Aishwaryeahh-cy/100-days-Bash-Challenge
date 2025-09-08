@@ -1,0 +1,9 @@
+Unlike cron, at runs once at a specific time. batch runs tasks when system load is 
+low.
+
+Example 1: Run a script at 5 PM today
+echo "/home/aishu/scripts/notify.sh" | at 5pm
+
+Example 2: Run a cleanup task
+echo "rm -rf /tmp/*" | batch
+
