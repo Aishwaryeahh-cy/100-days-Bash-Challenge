@@ -1,0 +1,18 @@
+set -x → Show each command before running. (Debugging mode)
+set -e → Stop the script immediately if any command fails.
+
+Example 1: Debugging with set -x
+#!/bin/bash
+set -x
+echo "Step 1: Listing files"
+ls
+echo "Step 2: Showing current path"
+pwd
+
+
+Example 2: Stopping with set -e
+#!/bin/bash
+set -e
+echo "Starting script..."
+ls /not_exist   # Error → script stops
+echo "This won’t run"
