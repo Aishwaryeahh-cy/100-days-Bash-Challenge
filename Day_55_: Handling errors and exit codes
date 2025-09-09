@@ -1,0 +1,21 @@
+Every Linux command returns an exit status code:
+0 → Success ✅
+1–255 → Error ❌
+
+Example 1 – Success vs failure
+ls /etc/passwd
+echo $?   # should be 0
+ls /not/exist
+echo $?   # should be non-zero (like 2)
+
+
+Example 2 – Error handling in a script
+#!/bin/bash
+cp /etc/passwd /tmp/
+if [ $? -eq 0 ]; then
+  echo "Copy successful"
+else
+  echo "Copy failed"
+  exit 1
+fi
+
