@@ -1,0 +1,9 @@
+We use df (disk free) and du (disk usage).
+
+#!/bin/bash
+usage=$(df / | grep / | awk '{print $5}' | sed 's/%//')
+if [ $usage -gt 80 ]; then
+  echo "Warning: Disk usage above 80%!"
+else
+  echo "Disk usage is under control: $usage%"
+fi
