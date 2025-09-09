@@ -1,0 +1,10 @@
+ping → Tests network path (is the server up? how fast is the connection?).
+EXample : ping -c 4 google.com   # test internet connectivity
+          ping 192.168.1.1       # check if your router is alive
+
+curl → Tests application layer (HTTP/HTTPS)
+Example: curl -I https://www.google.com   # show headers
+         curl -o google.html https://www.google.com   # save page
+
+wget → command-line tool for downloading files from the web.
+Example: wget https://example.com/file.zip
