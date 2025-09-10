@@ -8,3 +8,7 @@ Example: curl -I https://www.google.com   # show headers
 
 wget → command-line tool for downloading files from the web.
 Example: wget https://example.com/file.zip
+
+
+
+.
