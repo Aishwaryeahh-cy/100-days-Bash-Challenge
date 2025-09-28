@@ -1,0 +1,16 @@
+Day 62: Working with files and directories using loops
+Loops = repeat a task for many files/folders.
+
+Example 1: Print all text files
+for file in *.txt; do
+  echo "Found: $file"
+done
+
+➡️ If you have 5 .txt files, it prints each one.
+
+Example 2: Create folders in bulk
+for i in {1..3}; do
+  mkdir "folder_$i"
+done
+
+➡️ Makes: folder_1, folder_2, folder_3.
