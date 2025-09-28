@@ -1,0 +1,10 @@
+Instead of typing commands every time to install/update apps, you put them in a script.
+apt update → checks for new updates.
+apt upgrade → installs updates.
+apt install → installs apps.
+
+Example:
+#!/bin/bash
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install -y git curl htop
