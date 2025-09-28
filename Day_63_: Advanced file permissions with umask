@@ -1,0 +1,10 @@
+Every file/folder has permissions (who can read/write/execute).
+umask decides default permissions for new files.
+
+Example:
+umask 027
+touch newfile
+mkdir newdir
+ls -l newfile newdir
+
+
