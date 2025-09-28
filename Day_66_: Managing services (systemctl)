@@ -1,0 +1,8 @@
+Services = background programs (like SSH, Apache, MySQL).
+systemctl controls them.
+Example:
+systemctl status ssh      # Check if running
+sudo systemctl start ssh  # Start
+sudo systemctl stop ssh   # Stop
+sudo systemctl enable ssh # Start on boot
+sudo systemctl disable ssh # Don’t start on boot
