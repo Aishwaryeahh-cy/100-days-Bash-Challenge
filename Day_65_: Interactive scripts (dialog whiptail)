@@ -1,0 +1,11 @@
+These show menus or Yes/No boxes in terminal.
+Example:
+whiptail --title "Install App" --yesno "Do you want to install htop?" 10 60
+if [ $? -eq 0 ]; then
+  sudo apt install -y htop
+else
+  echo "Cancelled."
+fi
+
+A box appears → You press Yes → installs htop.
+Press No → does nothing.
