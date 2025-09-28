@@ -1,0 +1,12 @@
+Like fingerprint of a file.
+If file changes (corruption/hack), fingerprint will also change.
+Example:
+md5sum myfile.txt > myfile.txt.md5
+sha256sum myfile.txt > myfile.txt.sha256
+Saves file fingerprints.
+To check later:
+md5sum -c myfile.txt.md5
+Tells you if file is “OK” or “FAILED.”
+
+
+
