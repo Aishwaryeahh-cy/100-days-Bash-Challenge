@@ -1,0 +1,19 @@
+Definition
+SSH (Secure Shell): A protocol that lets you securely connect to another computer and run commands remotely.
+With bash scripting, you can automate tasks on remote servers using ssh and scp.
+
+Examples
+
+1. Simple SSH command
+ssh user@192.168.1.10 "uptime"
+→ Logs in to the remote server and runs uptime.
+
+2. Copying a file to a server
+scp myfile.txt user@192.168.1.10:/home/user/
+
+3. Automated script example
+#!/bin/bash
+SERVER="user@192.168.1.10"
+ssh $SERVER "df -h"
+
+→ Saves typing every time.
