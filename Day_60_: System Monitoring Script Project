@@ -1,0 +1,9 @@
+#!/bin/bash
+
+CPU=$(top -bn1 | awk '/Cpu/ {print 100-$8}')
+MEM=$(free | awk '/Mem/ {print int($3/$2*100)}')
+DISK=$(df / | awk 'NR==2 {gsub("%",""); print $5}')
+
+[ $CPU -gt 80 ] && echo "CPU High: $CPU%" | mail -s "CPU Alert" you@example.com
+[ $MEM -gt 80 ] && echo "Memory High: $MEM%" | mail -s "Memory Alert" you@example.com
+[ $DISK -gt 80 ] && echo "Disk High: $DISK%" | mail -s "Disk Alert" you@example.com
