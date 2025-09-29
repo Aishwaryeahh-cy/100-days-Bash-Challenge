@@ -1,0 +1,21 @@
+Idea: Sometimes you want to give the user a choice (like start, stop, restart services).
+We can use a simple menu with case statements.
+
+Example script:
+#!/bin/bash
+# service-menu.sh
+echo "Service Menu"
+echo "1. Start Apache"
+echo "2. Stop Apache"
+echo "3. Restart Apache"
+echo "4. Exit"
+read -p "Enter your choice: " choice
+case $choice in
+  1) systemctl start apache2 ;;
+  2) systemctl stop apache2 ;;
+  3) systemctl restart apache2 ;;
+  4) echo "Exiting..."; exit 0 ;;
+  *) echo "Invalid choice" ;;
+esac
+If user presses 1, it will start Apache service.
+systemctl is used to manage services.
