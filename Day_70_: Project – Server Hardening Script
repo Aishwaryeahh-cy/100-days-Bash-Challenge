@@ -1,0 +1,24 @@
+Hardening = making your server more secure. A script can do things like:
+1. Disable unnecessary services.
+2. Create a non-root user.
+3. Configure a firewall.
+
+Example script:
+#!/bin/bash
+# harden.sh
+# Disable unused services (example: ftp)
+systemctl disable vsftpd 2>/dev/null
+# Create a new non-root user
+NEWUSER="secureuser"
+if ! id "$NEWUSER" &>/dev/null; then
+    useradd -m -s /bin/bash $NEWUSER
+    echo "$NEWUSER:password123" | chpasswd
+    echo "User $NEWUSER created."
+fi
+# Setup firewall with UFW (only allow SSH, HTTP, HTTPS)
+ufw allow ssh
+ufw allow http
+ufw allow https
+ufw --force enable
+echo "Hardening completed!"
+
