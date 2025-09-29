@@ -1,0 +1,19 @@
+Idea: Write a script that copies files from your machine to another (remote) machine automatically.
+In Linux, we often use scp (secure copy) or rsync for backups.
+Suppose you want to back up /home/user/data to another server at 192.168.1.50 under the user backupuser.
+
+Example script:
+#!/bin/bash
+# backup.sh
+# Source and destination
+SOURCE_DIR="/home/user/data"
+DEST_USER="backupuser"
+DEST_HOST="192.168.1.50"
+DEST_DIR="/backups/data"
+# Run backup
+rsync -avz $SOURCE_DIR ${DEST_USER}@${DEST_HOST}:$DEST_DIR
+echo "Backup completed successfully!"
+rsync -avz → archive mode, verbose, compressed transfer.
+
+You can schedule this script with cron (like every night at 2am).
+
