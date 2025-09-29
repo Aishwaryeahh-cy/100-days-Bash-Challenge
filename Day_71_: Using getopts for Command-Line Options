@@ -1,0 +1,13 @@
+Many scripts accept flags like -f, -u, etc. Instead of typing arguments in order, you can give options.
+getopts helps parse those options.
+Example script:
+#!/bin/bash
+# options.sh
+while getopts "u:d:" opt; do
+  case $opt in
+    u) USERNAME=$OPTARG ;;
+    d) DIRECTORY=$OPTARG ;;
+    *) echo "Usage: $0 -u username -d directory"; exit 1 ;;
+  esac
+done
+echo "Backing up directory $DIRECTORY for user $USERNAME"
