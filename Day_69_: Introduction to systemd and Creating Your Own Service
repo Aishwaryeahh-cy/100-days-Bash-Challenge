@@ -1,0 +1,19 @@
+systemd is the system manager that starts services when your Linux machine boots.
+Services are defined in unit files (ending with .service).
+Example service file:
+/etc/systemd/system/mybackup.service
+[Unit]
+Description=My Backup Service
+After=network.target
+[Service]
+ExecStart=/home/user/backup.sh
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target
+
+Then you run:
+sudo systemctl daemon-reload
+sudo systemctl enable mybackup.service
+sudo systemctl start mybackup.service
+
+Now your backup script runs automatically like a real Linux service!
