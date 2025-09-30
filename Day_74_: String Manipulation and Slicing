@@ -1,0 +1,12 @@
+Sometimes after reading data, you need to clean or extract parts of a string.
+String slicing:
+word = "GermanShepherd"
+print(word[0:6])   # German
+print(word[-3:])   # rds (last 3 letters)
+
+String functions:
+text = "  hello world  "
+print(text.strip())      # remove spaces → "hello world"
+print(text.upper())      # "HELLO WORLD"
+print(text.replace("world", "Aishwarya"))  # "hello Aishwarya"
+
