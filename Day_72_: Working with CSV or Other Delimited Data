@@ -1,0 +1,13 @@
+CSV (Comma-Separated Values) = A simple text file where each line has data separated by commas.
+Example:
+name,age,city
+Aishwarya,20,Bangalore
+Rahul,25,Delhi
+
+In Python we use the csv module to read su
+Example:
+import csv
+with open("users.csv", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row) 
