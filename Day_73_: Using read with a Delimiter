@@ -1,0 +1,14 @@
+If the delimiter is not a comma, you must tell Python what delimiter to use.
+Example (semicolon-separated):
+import csv
+with open("users_semicolon.csv", "r") as file:
+    reader = csv.reader(file, delimiter=";")
+    for row in reader:
+        print(row)
+
+Output might look like:
+['name', 'age', 'city']
+['Aishwarya', '20', 'Bangalore']
+['Rahul', '25', 'Delhi']
+
+
