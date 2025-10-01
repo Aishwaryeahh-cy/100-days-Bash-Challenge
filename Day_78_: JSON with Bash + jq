@@ -1,0 +1,3 @@
+Parse or generate JSON data in Bash using jq.
+
+echo '{"city":"Paris","temp":20}' | jq '.temp'
