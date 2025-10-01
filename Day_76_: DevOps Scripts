@@ -1,0 +1,4 @@
+Automate repetitive system/admin tasks like deployment, restarts, backups.
+
+git pull origin main
+systemctl restart nginx
