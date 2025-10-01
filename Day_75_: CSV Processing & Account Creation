@@ -1,0 +1,6 @@
+Process CSV files, read user data, create accounts, and generate passwords.
+
+while IFS=',' read username email; do
+   pass=$(openssl rand -base64 8)
+   echo "$username,$email,$pass" >> accounts.txt
+done < users.csv
