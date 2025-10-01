@@ -1,0 +1,4 @@
+Use tput to add colors/styles to terminal output.
+
+tput setaf 2; echo "Success (Green)"; tput sgr0
+tput setaf 1; echo "Error (Red)"; tput sgr0
