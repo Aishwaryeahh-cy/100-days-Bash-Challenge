@@ -1,0 +1,5 @@
+DayCombine system info + APIs + formatting into a single view.
+
+echo "CPU: $(uptime)"
+echo "Memory: $(free -h | grep Mem)"
+tput setaf 2; echo "Weather: $(cat weather.txt)"; tput sgr0
