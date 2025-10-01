@@ -1,0 +1,5 @@
+Use a public API to fetch and show weather for a city.
+
+API="your_api_key"
+CITY="London"
+curl -s "https://api.openweathermap.org/data/2.5/weather?q=$CITY&appid=$API&units=metric" | jq '.main.temp'
