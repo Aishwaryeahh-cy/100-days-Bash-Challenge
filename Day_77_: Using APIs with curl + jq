@@ -1,0 +1,3 @@
+Fetch data from APIs (curl) and extract values (jq).
+
+curl -s https://api.github.com/users/octocat | jq '.name'
