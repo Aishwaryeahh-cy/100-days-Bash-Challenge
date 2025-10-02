@@ -1,0 +1,2 @@
+Example:
+rsync -av --delete ~/projects/ /backup/projects/
