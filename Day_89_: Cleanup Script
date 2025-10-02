@@ -1,0 +1,4 @@
+Example:
+#!/bin/bash
+find /tmp -type f -atime +7 -delete
+find /var/log -type f -name "*.log" -mtime +30 -delete
