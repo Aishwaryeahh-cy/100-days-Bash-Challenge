@@ -1,0 +1,9 @@
+A subshell runs inside parentheses ( ).
+It doesn’t affect the parent shell (your main environment).
+
+Example:
+
+#!/bin/bash
+echo "Before subshell: $(pwd)"
+(cd /tmp && echo "Inside subshell: $(pwd)")
+echo "After subshell: $(pwd)"
