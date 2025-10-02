@@ -1,0 +1,8 @@
+trap catches signals (like CTRL+C) so you can clean up.
+
+Example:
+#!/bin/bash
+tmpfile=$(mktemp)
+trap "rm -f $tmpfile; echo 'Cleaned temp file'; exit" INT TERM EXIT
+echo "Working with $tmpfile"
+sleep 10
