@@ -1,0 +1,8 @@
+Example:
+#!/bin/bash
+echo "Disk usage:"
+df -h
+echo "Memory usage:"
+free -h
+echo "Top 5 processes:"
+ps aux --sort=-%cpu | head -n 5
