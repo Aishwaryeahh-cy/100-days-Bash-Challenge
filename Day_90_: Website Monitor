@@ -1,0 +1,6 @@
+Example:
+#!/bin/bash
+url="https://example.com"
+if ! curl -s --head $url | grep "200 OK" > /dev/null; then
+  echo "Website down!"
+fi
