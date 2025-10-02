@@ -1,0 +1,6 @@
+Automating Docker tasks:
+
+Example:
+#!/bin/bash
+docker build -t myapp .
+docker run -d --name myapp_container -p 8080:80 myapp
