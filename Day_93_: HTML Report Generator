@@ -1,0 +1,5 @@
+Example:
+#!/bin/bash
+echo "<html><body><h1>Log Report</h1><pre>" > report.html
+tail -n 50 /var/log/syslog >> report.html
+echo "</pre></body></html>" >> report.html
