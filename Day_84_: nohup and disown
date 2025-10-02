@@ -1,0 +1,7 @@
+nohup → runs a command immune to hangups, survives logout.
+disown → removes process from shell’s job table.
+
+Example:
+#!/bin/bash
+nohup python3 myserver.py > server.log 2>&1 &
+disown
