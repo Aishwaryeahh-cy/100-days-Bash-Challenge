@@ -1,0 +1,5 @@
+Example:
+#!/bin/bash
+for img in *.jpg; do
+  convert "$img" "${img%.jpg}.png"
+done
