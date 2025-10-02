@@ -1,0 +1,4 @@
+Example:
+#!/bin/bash
+mkdir -p $1/{src,docs,tests}
+touch $1/README.md
