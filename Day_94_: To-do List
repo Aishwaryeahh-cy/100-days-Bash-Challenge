@@ -1,0 +1,8 @@
+Example:
+#!/bin/bash
+todo=~/.todo
+case $1 in
+  add) echo "$2" >> $todo ;;
+  list) nl $todo ;;
+  done) sed -i "${2}d" $todo ;;
+esac
