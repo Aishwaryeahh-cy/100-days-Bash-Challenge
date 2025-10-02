@@ -1,0 +1,5 @@
+Example:
+#!/bin/bash
+day=$(date +%Y-%m-%d)
+mkdir "Day-$day"
+echo "# Day $day Challenge" > "Day-$day/README.md"
