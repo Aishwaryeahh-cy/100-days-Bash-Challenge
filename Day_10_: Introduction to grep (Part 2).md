@@ -5,4 +5,3 @@ Example: grep "apple" fruits.txt
          grep -v "apple" fruits.txt
          grep "error" *.log
          grep -r "apple" /home/user/
-.
