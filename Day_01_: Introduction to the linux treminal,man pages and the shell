@@ -9,4 +9,3 @@
 2. Man Pages (Manual Pages):
   Definition: Man pages are the built-in documentation in Linux that provide detailed information about commands, system calls, library functions, and configuration files. 
   Example: man ls, man cpu etc.(q letter is used to quit automatically).
-df
